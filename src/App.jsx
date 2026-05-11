@@ -2,6 +2,7 @@ import './App.css';
 import Button from './components/Button';
 import { CandidateProfile } from './components/CandidatePrpfile';
 import { ContactForm } from './components/ContactForm';
+import ProductList from './components/ProductList';
 import UserDetails from './components/UserDetails';
 import UserProfile from './components/UserProfile';
 import { Welcome } from './components/Welcome';
@@ -9,6 +10,7 @@ import { Welcome } from './components/Welcome';
 const App = () => {
   return (
     <div>
+      <ProductList/>
       <UserDetails name="Sirajul Munir" isOnline={true}/>
       <UserDetails name="Srejon Sharma" isOnline={false}/>
       <Welcome props="munir"/>
